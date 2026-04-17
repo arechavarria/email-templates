@@ -1,0 +1,18 @@
+{
+  "templates": [
+    {
+      "name": "welcome-email",
+      "description": "Welcome email for new users",
+      "subject": "Welcome to our platform",
+      "file_path": "./templates/welcome-email.html",
+      "type": "html",
+      "variables": [
+        "user.firstName",
+        "user.email",
+        "activationLink"
+      ],
+      "tags": ["onboarding", "user"],
+      "enabled": true
+    }
+  ]
+}
